@@ -43,8 +43,8 @@ int main(int argc, char **argv)
 		{
 			redraw = 0;
 			consoleSelect(&bottomScreen);
-			printf("\x1b[1;1HHost Server");
-			printf("\x1b[2;1HJoin Server");
+			printf("\x1b[2;1HHost Server");
+			printf("\x1b[4;1HJoin Server");
 		}
 
 		// Flush and swap framebuffers
